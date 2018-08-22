@@ -10,6 +10,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
 BuildRequires: jack-audio-connection-kit-devel alsa-lib-devel
 BuildRequires: zita-resampler-devel zita-alsa-pcmi-devel
+BuildRequires: gcc-c++
 
 %description
 Zita-ajbridge provides two applications, zita-a2j and zita-j2a. They
