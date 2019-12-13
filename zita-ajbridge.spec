@@ -1,7 +1,7 @@
 Summary: Full quality multichannel audio over a local IP network
 Name: zita-ajbridge
 Version: 0.8.2
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 Group: Applications/Multimedia
 URL: http://kokkinizita.linuxaudio.org/linuxaudio/
@@ -52,6 +52,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/*/*
 
 %changelog
+
+* Fri Dec 13 2019 - David Va <davidva AT tuta DOT io> 0.8.2-2
+- Rebuilt
 
 * Fri Sep 07 2018 - David Va <davidva AT tuta DOT io> 0.8.2-1
 - Updated to 0.8.2

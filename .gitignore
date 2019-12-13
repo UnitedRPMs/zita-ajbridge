@@ -3,5 +3,6 @@ BUILDROOT/*
 RPMS/*
 SPECS/*
 SRPMS/*
-zita-ajbridge*.tar.bz2
+*.tar.bz2
 .directory
+*.rpm
